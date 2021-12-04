@@ -1,0 +1,107 @@
+The eco system idea is one that would allow a user to hit play and watch as animals, insects, and natura in general
+gets to self regulate and follow some systematic rules. 
+
+This eco system idea, would ideally be pairable with procedural animations. Where some creature that is procedurally
+animated, could follow one of these systemic-rules.
+
+
+Idea
+____
+
+- Every living creature should have some basic form of needs to survive and reproduce. In order to keep this 'in-scope'
+as much as possible, they will mostly be given the following across the board
+
+- Living Type
+- Age (and a max lifespan)
+- Reproduction Requires Partner (true or false)
+- Gender
+- Size
+- Hunger
+- Speed
+- Health Condition
+- Natural Strength
+- Natural Defense
+- Travel Type {ground, water, air} (could do more like caves and trees)
+
+- With the above variables, each type should have all the information it needs to live, thrive, or die. Some general
+formulas will be used that will not be entirely accurate. For example, the reproduction age for every creature is 
+different. Again, to save on scope, I will be assuming that all creatures are ready to reproduce within the 15%-40% of
+their lifespan. Time will move at a multiple to provide faster results.
+
+Types of <Living>
+____
+
+The Chain should be broken up into;
+- herbivore = eats foliage & insects
+- omnivore = eats anything, but might prioritize meat, then foliage, then insects
+- insects = eats foliage
+- foliage = spawns on it's own and always, but the rate depends
+
+
+Rules
+_____
+
+
+1) Death Conditions
+	- Age	>= 100%
+	- Health = 0%
+	- Hunger = 0%
+
+2) Normal Constants
+	- Time +
+	- Age +
+	- Hunger -
+
+3) Special Constants
+(increase until a certain Age %, then decrease)
+	- Size
+	- Speed
+	- Health
+	- Attack
+	- Defense
+
+
+4) Reproduction
+	- When in the correct age %
+	- Watches for opposite gender also within age % ||OR|| Releases Eggs/Seeds to fertalize/be fertalized
+	- Once both creatures or eggs/seeds connect, then they are both put on a cooldown for reproduction
+	- X time later, there is additional  
+
+5) Senses
+	- Radius (estimation of vision
+
+5) Movement
+	- Idle when meters are healthy
+	- Intentional Based on least-healthy meter
+
+6) Being Hunted
+	- Run
+	- Fight
+	- Idle
+
+
+First Testables
+_______________
+
+A) Since Foliage is the most important I want to get the following to be able to reproduce and spread;
+	- Tree
+	- Bush
+	- Grass
+
+B) Once Foliage can grow I'll introduce Insects to speed up the process;
+	- Bees/Wasps
+	- Pray Mantis
+	- Beetles/LadyBugs
+
+C) Once Insects can grow I'll introduce herbivores;
+	- Antelope
+	- Beaver
+	- Cow/Bull
+
+D) Once Herbivores are living, I can finish off with omnivores;
+	- Bears
+	- Birds
+	- Dogs/Foxes/Wolfs
+
+
+
